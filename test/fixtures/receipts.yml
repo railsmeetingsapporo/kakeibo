@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  amount: 1
+  purchase_date: 2015-04-25
+  item_name: MyString
+
+two:
+  amount: 1
+  purchase_date: 2015-04-25
+  item_name: MyString
