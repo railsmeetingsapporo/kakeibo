@@ -15,5 +15,10 @@
   <%= @receipt.item_name %>
 </p>
 
+<p>
+  <strong>Category:</strong>
+  <%= @receipt.category.name %>
+</p>
+
 <%= link_to 'Edit', edit_receipt_path(@receipt) %> |
 <%= link_to 'Back', receipts_path %>
